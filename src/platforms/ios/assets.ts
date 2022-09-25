@@ -105,7 +105,7 @@ export const IOS_29_PT_3X_ICON: IosOutputAssetTemplate = {
 
 /**
  * 38pt Icon
- * 
+ *
  * ?
  */
 export const IOS_38_PT_ICON: IosOutputAssetTemplate = {
@@ -137,7 +137,6 @@ export const IOS_38_PT_3X_ICON: IosOutputAssetTemplate = {
   height: 114,
   scale: 3,
 };
-
 
 /**
  * 40pt Icon
@@ -213,8 +212,8 @@ export const IOS_60_PT_3X_ICON: IosOutputAssetTemplate = {
 };
 
 /**
- * 38pt Icon
- * 
+ * 64pt Icon
+ *
  * ?
  */
 export const IOS_64_PT_ICON: IosOutputAssetTemplate = {
@@ -244,6 +243,41 @@ export const IOS_64_PT_3X_ICON: IosOutputAssetTemplate = {
   format: Format.Png,
   width: 192,
   height: 192,
+  scale: 3,
+};
+
+/**
+ * 64pt Icon
+ *
+ * ?
+ */
+export const IOS_68PT_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@1x.png',
+  format: Format.Png,
+  width: 68,
+  height: 68,
+  scale: 1,
+};
+
+export const IOS_68_PT_2X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@2x.png',
+  format: Format.Png,
+  width: 136,
+  height: 136,
+  scale: 2,
+};
+
+export const IOS_68_PT_3X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@3x.png',
+  format: Format.Png,
+  width: 204,
+  height: 204,
   scale: 3,
 };
 
