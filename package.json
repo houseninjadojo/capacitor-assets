@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor/assets",
-  "version": "1.0.3",
+  "name": "@houseninjadojo/capacitor-assets",
+  "version": "1.0.4-alpha.0",
   "description": "Generate icon and splash screen images for Capacitor apps",
   "homepage": "https://ionicframework.com",
   "author": "Ionic Team <hi@ionicframework.com>",
@@ -21,7 +21,7 @@
     "fmt": "npm run prettier -- --write",
     "eslint": "eslint . --ext ts",
     "prettier": "prettier 'src/**/*.ts'",
-    "release": "np",
+    "release": "np prerelease --preview",
     "prepublishOnly": "npm run build"
   },
   "husky": {
@@ -39,10 +39,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/capacitor-assets.git"
+    "url": "git+https://github.com/houseninjadojo/capacitor-assets.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/capacitor-assets/issues"
+    "url": "https://github.com/houseninjadojo/capacitor-assets/issues"
   },
   "keywords": [
     "ionic",
@@ -93,5 +93,8 @@
   "volta": {
     "node": "16.13.2",
     "npm": "8.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
