@@ -9,12 +9,12 @@ import {
   Theme,
 } from '../../definitions';
 
-/**
- * 20pt Icon
- *
- * - iPhone Notification (iOS 7+)
- * - iPad Notification (iOS 7+)
- */
+// /**
+//  * 20pt Icon
+//  *
+//  * - iPhone Notification (iOS 7+)
+//  * - iPad Notification (iOS 7+)
+//  */
 export const IOS_20_PT_ICON: IosOutputAssetTemplateIcon = {
   platform: Platform.Ios,
   kind: AssetKind.NotificationIcon,
@@ -104,6 +104,42 @@ export const IOS_29_PT_3X_ICON: IosOutputAssetTemplate = {
 };
 
 /**
+ * 38pt Icon
+ * 
+ * ?
+ */
+export const IOS_38_PT_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-38x38@1x.png',
+  format: Format.Png,
+  width: 38,
+  height: 38,
+  scale: 1,
+};
+
+export const IOS_38_PT_2X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-38x38@2x.png',
+  format: Format.Png,
+  width: 76,
+  height: 76,
+  scale: 2,
+};
+
+export const IOS_38_PT_3X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-38x38@3x.png',
+  format: Format.Png,
+  width: 114,
+  height: 114,
+  scale: 3,
+};
+
+
+/**
  * 40pt Icon
  *
  * - iPhone Spotlight (iOS 7+)
@@ -173,6 +209,41 @@ export const IOS_60_PT_3X_ICON: IosOutputAssetTemplate = {
   format: Format.Png,
   width: 180,
   height: 180,
+  scale: 3,
+};
+
+/**
+ * 38pt Icon
+ * 
+ * ?
+ */
+export const IOS_64_PT_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@1x.png',
+  format: Format.Png,
+  width: 64,
+  height: 64,
+  scale: 1,
+};
+
+export const IOS_64_PT_2X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@2x.png',
+  format: Format.Png,
+  width: 128,
+  height: 128,
+  scale: 2,
+};
+
+export const IOS_64_PT_3X_ICON: IosOutputAssetTemplate = {
+  platform: Platform.Ios,
+  kind: AssetKind.Icon,
+  name: 'AppIcon-64x64@3x.png',
+  format: Format.Png,
+  width: 192,
+  height: 192,
   scale: 3,
 };
 
